@@ -1,0 +1,53 @@
+{
+	"name": "encounterplus-markdown",
+	"displayName": "EncounterPlus Markdown",
+	"description": "Renders markdown as it would appear in EncounterPlus",
+	"version": "1.0.0",
+	"publisher": "jacobjohnston",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jacobjohnston/encounterplus-markdown-vscode.git"
+	},
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"bugs": {
+		"url": "https://github.com/jacobjohnston/encounterplus-markdown-vscode/issues"
+	},
+	"homepage": "https://github.com/jacobjohnston/encounterplus-markdown-vscode",	
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:markdown"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"markdown.markdownItPlugins": true,
+		"markdown.previewStyles": [
+			"assets/css/global.css"
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint . --ext .ts,.tsx",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/node": "^12.12.0",
+		"@types/vscode": "^1.34.0",
+		"@typescript-eslint/eslint-plugin": "^3.0.2",
+		"@typescript-eslint/parser": "^3.0.2",
+		"eslint": "^7.1.0",
+		"typescript": "^3.9.4"
+	},
+	"dependencies": {
+		"@types/markdown-it": "^10.0.1",
+		"markdown-it": "^11.0.0",
+		"markdown-it-anchor": "^5.3.0",
+		"markdown-it-attrs": "^3.0.3",
+		"markdown-it-imsize": "^2.0.1"
+	}
+}
