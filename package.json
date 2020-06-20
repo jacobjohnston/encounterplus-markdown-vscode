@@ -10,7 +10,7 @@
 		"url": "https://github.com/jacobjohnston/encounterplus-markdown-vscode.git"
 	},
 	"engines": {
-		"vscode": "^1.38.0"
+		"vscode": "^1.46.0"
 	},
 	"license": "CC0-1.0",
 	"bugs": {
