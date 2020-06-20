@@ -2,6 +2,7 @@
 	"name": "encounterplus-markdown",
 	"displayName": "EncounterPlus Markdown",
 	"description": "Renders markdown as it would appear in EncounterPlus",
+	"icon": "Logo.png",
 	"version": "1.0.0",
 	"publisher": "jacobjohnston",
 	"repository": {
@@ -11,7 +12,7 @@
 	"engines": {
 		"vscode": "^1.38.0"
 	},
-	"license": "SEE LICENSE IN LICENSE.txt",
+	"license": "CC0-1.0",
 	"bugs": {
 		"url": "https://github.com/jacobjohnston/encounterplus-markdown-vscode/issues"
 	},
